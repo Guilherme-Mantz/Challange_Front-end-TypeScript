@@ -1,0 +1,112 @@
+*{
+  font-family: 'Roboto', sans-serif;
+}
+
+.bg-primary-color{
+  background-color: #5C16C5;
+}
+
+.primary-color{
+  color: #FFF;
+}
+
+.btn-primary{
+  background-color: #FFF;
+  border: 0;
+  color: #323232;
+  font-weight: 700;
+}
+
+.btn-primary:hover{
+  background-color: #D18000;
+}
+
+.container .nav-link{
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 5px;
+}
+
+#filter {
+  background-color: #2D0C5E;
+}
+
+#filter #title-filter{
+  max-width: 21em;
+  padding-bottom: 30px;
+}
+
+#filter .container{
+  padding-top: 70px;
+  padding-bottom: 60px;
+}
+
+#banner-film{
+  background-color: #2D0C5E;
+  padding-top: 70px;
+}
+
+#movie-link{
+  border: 0;
+  color: #000;
+  text-decoration: none;
+}
+
+#list{
+  margin-top: 100px;
+}
+
+#title-list{
+  font-weight: 700;
+}
+
+.scrollmenu {
+  position: relative;
+  overflow: auto;
+  display: flex;
+}
+
+.scrollmenu .card-actor {
+  display: inline-block;
+  margin: 10px;
+  padding: 14px;
+  text-align: center;
+  text-decoration: none;    
+  width: 191px; 
+}
+
+#actor-image{
+  margin: -6px;
+  margin-bottom: 0;
+}
+.card-actor #personageActor{
+  text-align: left;
+}
+
+.card-actor #personageActor p{
+  font-weight: 700;
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+
+#recomendations{
+  margin-bottom: 200px;
+}
+
+@media (max-width: 768px){
+  .container .nav-link{
+      text-align: center;
+  }
+  #image-film{
+      max-width: 70% !important;
+  }
+  #text-film {
+      margin-top: 50px !important;
+  }
+}
+
+@media (min-width: 1280px){
+  #characteristics{
+      top: 60px;
+  }
+}
