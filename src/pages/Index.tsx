@@ -23,8 +23,7 @@ function Index() {
         .then((response) => {
             setData(response.data)
         })
-    },[id, data]);
-
+    },[id]);
     const listFilOne:string[] = [ 'Ação', 'Aventura', 'Animação', 'Comédia', 'Crime', 'Documentário', 'Drama', 'Família', 'Fantasia', 'História' ];
     const listFilTwo:string[] = [ 'Terror', 'Música', 'Mistério', 'Romance', 'Ficcção científica', 'Cinema TV', 'Thriller', 'Guerra', 'Faroeste' ];
 
