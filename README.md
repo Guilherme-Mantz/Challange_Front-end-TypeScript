@@ -1,4 +1,4 @@
-# Challange - React.js
+# Challange - React
 
 <h2>Projeto criado para praticar React e TypeScript</h2>
 
